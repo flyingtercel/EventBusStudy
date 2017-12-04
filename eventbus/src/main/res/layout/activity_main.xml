@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="us.mifeng.eventbus.MainActivity">
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="click"
+    android:text="buy_try"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="nian"
+        android:text="buy_try"/>
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nihs"/>
+
+</LinearLayout>
