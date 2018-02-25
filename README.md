@@ -1,4 +1,9 @@
 # EventBusStudy
+
+###### EventBus依赖 
+```
+compile 'org.greenrobot:eventbus:3.0.0'
+```
 EventBus是一个事件发布/订阅总线
     使用EventBus是组织之间的通信更加简单。
     针对事件的发送者和订阅者之间进行解耦。高内聚/耦合度低
